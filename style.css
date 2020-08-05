@@ -1,0 +1,24 @@
+body {
+  font-family: "lucida sans unicode",Sans-Serif;
+  text-align: center;
+}
+
+#topdiv{
+  background-color: lightblue;
+  width: 60%;
+  border-radius: 200px;
+  margin: auto;
+}
+
+img{
+  width: 30%;
+  height: 30%;
+}
+
+#div1{
+  background-color: lightpink;
+  width: 50%;
+  margin: auto;
+  display:none;
+}
+
