@@ -1,11 +1,26 @@
 $(document).ready(function(){
-  $("h3").click(function(){
-    $(this).hide();
+  $("p").hide();
+	$("br").show();
+  	$("#hide").click(function(){
+		if (document.getElementById("hide").innerHTML == "Hide Picture") {
+			var button = document.getElementById('hide');
+			$("#mypicture").hide();
+      button.innerHTML = ("Show Picture")
+		} else {
+			var button = document.getElementById('hide');
+      $("#mypicture").show();
+			button.innerHTML = ("Hide Picture");
+		}
+  	});
+  
+  $("#mainprojectbutton").click(function(){
+    $("#projectdiv").fadeIn();
   });
-});
 
-$(document).ready(function(){
   $("#button").click(function(){
     $("#div1").fadeIn();
   });
+
+
 });
+
